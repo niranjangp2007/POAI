@@ -38,26 +38,6 @@ bw = BlocksWorld()
 bw.plan_moves()
 
 OUTPUT:
-[ ]
-class BlocksWorld:
-    def __init__(self):
-        self.state = {
-            "A": "B",
-            "B": "table",
-            "C": "table"
-        }
-
-        self.goal = {
-            "A": "B",
-…                    self.move(block, target)
-
-        print("\nFinal Goal State Reached:", self.state)
-
-
-
-bw = BlocksWorld()
-bw.plan_moves()
-
 Initial State: {'A': 'B', 'B': 'table', 'C': 'table'}
 Moving B from table to C
 
